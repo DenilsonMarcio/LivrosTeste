@@ -1,0 +1,29 @@
+﻿TESTE ADVANCED
+Criar um sistema em ASPNET MVC para cadastro e consultas de livros.
+
+(Parte 1)
+
+Cadastro de Livros.	<== OK
+Os livros devem possuir:
+	·Titulo.	<== OK
+	·Autor/Autores.	<== OK
+	·Gênero(s).	<== OK
+	·Número de Páginas.	<== OK
+	·Se possui ilustrações (sim ou não).	<== OK
+	·(Bônus) Os livros podem ser parte de uma franquia/série de livros.	<== OK
+	·(Bônus) Os livros podem possuir uma foto de suas capas, enviadas pelo usuário em formato .jpeg. <== FALTA
+
+(Parte 2)
+
+Consulta de Livros. <== FALTA
+Uma página de consulta dos itens cadastrados onde é possível utilizar os seguintes filtros:
+	·Titulo.	<== FALTA
+	·Nome do autor.	<== FALTA
+	·Gênero.	<== FALTA
+	·Número de páginas (quantidade mínima, máxima ou quantidade específica).	<== FALTA
+	·Se possui ilustrações.
+	·(Bônus) Pode se escolher mais de gênero (Exemplo: pesquisar apenas os livros de Romance a e de Ficção).	<== FALTA
+	·(Bônus) Exibir a capa dos livros em um dos campos da consulta.	<== FALTA
+	.(BÔNUS) Favoritos	<== OK
+	Colocar um botão na consulta que permite salvar o livro em uma lista de favoritos, essa lista poderá ser consultada em 
+	uma página separada, onde o usuário poderá ver os livros adicionados e excluir livros dessa lista.	<== OK

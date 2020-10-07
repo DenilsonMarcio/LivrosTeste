@@ -1,0 +1,53 @@
+﻿@model LivrosTeste.Models.Favoritos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes do Livro</h1>
+
+<div>
+   
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Genero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Genero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Paginas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Paginas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ilustracao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ilustracao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SerieDescricao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SerieDescricao)
+        </dd>
+    </dl>
+    
+</div>
+<div>
+        <a asp-action="Index">Meus Favoritos</a>
+</div>

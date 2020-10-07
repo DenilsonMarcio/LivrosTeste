@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LivrosTeste20201007155812" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\DENILSONMARCIODOSSAN\\source\\repos\\LivrosTeste\\LivrosTeste\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="LivrosTeste.Models.Context" description="" value="Data Source=tcp:livrostestedbserver.database.windows.net,1433;Initial Catalog=LivrosTeste_db;User Id=moppahAzure@livrostestedbserver;Password=@azure2020" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\DENILSONMARCIODOSSAN\\source\\repos\\LivrosTeste\\LivrosTeste\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\LivrosTeste\.Models\.Context\.sql$" />
+  </parameter>
+</parameters>
