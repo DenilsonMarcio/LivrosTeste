@@ -12,13 +12,13 @@
  * Ter uma versão do Sqlserver instalada (Sql Community).
  * Utilizar o Nugget para configurar as dependências.
  * instalar o EntityFrameworkCore.SqlServer e EntityFrameworkCore.Tools.
-     Install-Package Microsoft.EntityFrameworkCore.SqlServer
-     Install-Package Microsoft.EntityFrameworkCore.Tools
+    * Install-Package Microsoft.EntityFrameworkCore.SqlServer
+    * Install-Package Microsoft.EntityFrameworkCore.Tools
  * Alterar a String de conexão dentro do arquivo Context na pasta Models.
  * Realizar a migração das classes para crianção do banco de dados utilizando o Migration.
-     Add-Migration InitialCreate
+    * Add-Migration InitialCreate
  * Criar e sincronizar o banco de dados com o comando Update-Database.
-     Update-Database
+    * Update-Database
      Obs: Migration e Update-Database precisam rodar toda vez que fizer alguma mudança na estrutura 
      do banco de dados.
 
