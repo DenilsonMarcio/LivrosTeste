@@ -19,7 +19,7 @@
     * Add-Migration InitialCreate
  * Criar e sincronizar o banco de dados com o comando Update-Database.
     * Update-Database
-     Obs: Migration e Update-Database precisam rodar toda vez que fizer alguma mudança na estrutura 
+    * Obs: Migration e Update-Database precisam rodar toda vez que fizer alguma mudança na estrutura 
      do banco de dados.
 
 ## Requisitos Solicitados e status de realização: 
