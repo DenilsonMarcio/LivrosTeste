@@ -1,12 +1,27 @@
 # Livraria Dev
 
 ## Teste realizado utilizando as tecnologias:
-  * ASP.Net Framework Core
+  * Visual Studio Community 2019
+  * Asp.Net Core 3.1
   * EntityFramework
-  * SqlServer
-  * Migration
+  * SqlServer Express Edition
   * MVC
-  
+
+## Documentação
+ * Clonar o repositório e instalar as dependências.
+ * Ter uma versão do Sqlserver instalada (Sql Community).
+ * Utilizar o Nugget para configurar as dependências.
+ * instalar o EntityFrameworkCore.SqlServer e EntityFrameworkCore.Tools.
+     Install-Package Microsoft.EntityFrameworkCore.SqlServer
+     Install-Package Microsoft.EntityFrameworkCore.Tools
+ * Alterar a String de conexão dentro do arquivo Context na pasta Models.
+ * Realizar a migração das classes para crianção do banco de dados utilizando o Migration.
+     Add-Migration InitialCreate
+ * Criar e sincronizar o banco de dados com o comando Update-Database.
+     Update-Database
+     Obs: Migration e Update-Database precisam rodar toda vez que fizer alguma mudança na estrutura 
+     do banco de dados.
+
 ## Requisitos Solicitados e status de realização: 
   * Criar Cadastro de Livros com as informações
   * Possuir uma (Serie / Franquia) ou não no cadastro 
@@ -24,15 +39,5 @@ Consultar cadastros             | REALIZADO
 Filtros de pesquisa             | NÃO REALIZADO  
 Adicionar aos Favoritos         | REALIZADO
 
-## Documentação
- * Clonar o repositório e instalar as dependências.
- * Ter uma versão do Sqlserver instalada (Sql Community).
- * Ter o Nugget instalado para configurar as dependências.
- * EntityFrameworkCore.SqlServer.
- * EntityFrameworkCore.Tools.
- * Alterar a String de conexão dentro do arquivo Context na pasta Models.
- * Realizar a migração das classes para crianção do banco de dados utilizando o Migration.
- * Criar e sincronizar o banco de dados com o comando Update-Database.
 
-##Link da publicação do projeto LivrariaDev na Microsoft Azure
-  [https://livrariaDev.azurewebsites.net/](https://livrosteste20201007155812.azurewebsites.net/)
+
